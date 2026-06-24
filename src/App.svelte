@@ -1,4 +1,4 @@
-<script>
++<script>
   import Navbar from './lib/components/Navbar.svelte';
   import Sidebar from './lib/components/Sidebar.svelte';
   import DashboardStats from './lib/components/DashboardStats.svelte';
