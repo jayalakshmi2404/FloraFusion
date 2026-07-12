@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	html {
+		@apply scroll-smooth;
+	}
+	body {
+		@apply bg-cream-50 text-charcoal-900;
+	}
+	h1,
+	h2,
+	h3,
+	h4 {
+		@apply font-display;
+	}
+	::selection {
+		@apply bg-bloom-200 text-bloom-900;
+	}
+}
+
+@media print {
+	header,
+	footer,
+	.no-print {
+		display: none !important;
+	}
+	body {
+		background: white !important;
+	}
+}
+
+@layer components {
+	.btn-primary {
+		@apply inline-flex items-center justify-center gap-2 rounded-full bg-bloom-600 px-6 py-3 text-sm font-semibold text-white shadow-bloom transition-all duration-200 hover:bg-bloom-700 hover:shadow-lg active:scale-95 disabled:cursor-not-allowed disabled:opacity-50;
+	}
+	.btn-secondary {
+		@apply inline-flex items-center justify-center gap-2 rounded-full border border-bloom-300 bg-white px-6 py-3 text-sm font-semibold text-bloom-700 transition-all duration-200 hover:bg-bloom-50 active:scale-95 disabled:cursor-not-allowed disabled:opacity-50;
+	}
+	.btn-ghost {
+		@apply inline-flex items-center justify-center gap-2 rounded-full px-5 py-2.5 text-sm font-medium text-charcoal-700 transition-colors duration-200 hover:bg-charcoal-100;
+	}
+	.card-glass {
+		@apply rounded-2xl border border-white/40 bg-white/70 shadow-glass backdrop-blur-md;
+	}
+	.input-field {
+		@apply w-full rounded-xl border border-charcoal-100 bg-white px-4 py-3 text-sm text-charcoal-900 placeholder:text-charcoal-100 focus:border-bloom-400 focus:outline-none focus:ring-2 focus:ring-bloom-200;
+	}
+	.input-error {
+		@apply border-red-400 focus:border-red-500 focus:ring-red-200;
+	}
+	.label-text {
+		@apply mb-1.5 block text-sm font-medium text-charcoal-700;
+	}
+	.skeleton {
+		@apply animate-shimmer rounded-lg bg-gradient-to-r from-charcoal-100 via-cream-200 to-charcoal-100 bg-[length:1000px_100%];
+	}
+	.badge {
+		@apply inline-flex items-center rounded-full px-2.5 py-1 text-xs font-medium;
+	}
+}

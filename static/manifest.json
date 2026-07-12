@@ -1,0 +1,17 @@
+{
+	"name": "Flora Fusion",
+	"short_name": "Flora Fusion",
+	"description": "Premium floral preservation and keepsake manufacturing platform.",
+	"start_url": "/",
+	"display": "standalone",
+	"background_color": "#fffdf8",
+	"theme_color": "#cf4a7c",
+	"icons": [
+		{
+			"src": "/favicon.svg",
+			"sizes": "any",
+			"type": "image/svg+xml",
+			"purpose": "any maskable"
+		}
+	]
+}

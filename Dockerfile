@@ -1,0 +1,58 @@
+# syntax=docker/dockerfile:1
+
+# ---------- Stage 1: Dependencies ----------
+FROM node:20-alpine AS deps
+WORKDIR /app
+COPY package.json package-lock.json* ./
+RUN npm ci
+
+# ---------- Stage 2: Build ----------
+FROM node:20-alpine AS build
+WORKDIR /app
+COPY --from=deps /app/node_modules ./node_modules
+COPY . .
+
+ARG PUBLIC_FIREBASE_API_KEY
+ARG PUBLIC_FIREBASE_AUTH_DOMAIN
+ARG PUBLIC_FIREBASE_PROJECT_ID
+ARG PUBLIC_FIREBASE_STORAGE_BUCKET
+ARG PUBLIC_FIREBASE_MESSAGING_SENDER_ID
+ARG PUBLIC_FIREBASE_APP_ID
+ARG PUBLIC_FIREBASE_MEASUREMENT_ID
+ARG PUBLIC_SITE_URL
+ARG PUBLIC_CONTACT_EMAIL
+ARG PUBLIC_USE_FIREBASE_EMULATORS=false
+
+ENV PUBLIC_FIREBASE_API_KEY=$PUBLIC_FIREBASE_API_KEY \
+    PUBLIC_FIREBASE_AUTH_DOMAIN=$PUBLIC_FIREBASE_AUTH_DOMAIN \
+    PUBLIC_FIREBASE_PROJECT_ID=$PUBLIC_FIREBASE_PROJECT_ID \
+    PUBLIC_FIREBASE_STORAGE_BUCKET=$PUBLIC_FIREBASE_STORAGE_BUCKET \
+    PUBLIC_FIREBASE_MESSAGING_SENDER_ID=$PUBLIC_FIREBASE_MESSAGING_SENDER_ID \
+    PUBLIC_FIREBASE_APP_ID=$PUBLIC_FIREBASE_APP_ID \
+    PUBLIC_FIREBASE_MEASUREMENT_ID=$PUBLIC_FIREBASE_MEASUREMENT_ID \
+    PUBLIC_SITE_URL=$PUBLIC_SITE_URL \
+    PUBLIC_CONTACT_EMAIL=$PUBLIC_CONTACT_EMAIL \
+    PUBLIC_USE_FIREBASE_EMULATORS=$PUBLIC_USE_FIREBASE_EMULATORS \
+    BUILD_ADAPTER=node
+
+RUN npm run build
+RUN npm prune --omit=dev
+
+# ---------- Stage 3: Runtime ----------
+FROM node:20-alpine AS runtime
+WORKDIR /app
+
+RUN addgroup -S florafusion && adduser -S florafusion -G florafusion
+
+COPY --from=build /app/build ./build
+COPY --from=build /app/node_modules ./node_modules
+COPY --from=build /app/package.json ./package.json
+
+ENV NODE_ENV=production \
+    PORT=3000 \
+    HOST=0.0.0.0
+
+USER florafusion
+EXPOSE 3000
+
+CMD ["node", "build/index.js"]

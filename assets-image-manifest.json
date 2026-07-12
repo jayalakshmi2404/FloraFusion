@@ -1,0 +1,544 @@
+{
+  "generatedAt": "2026-07-04T14:54:22.303Z",
+  "storageBucketPathConvention": "flowers/{flowerId}/{main.jpg|gallery-1.jpg|gallery-2.jpg|gallery-3.jpg|model.glb}",
+  "productPathConvention": "products/{productId}/{image-0.jpg|image-1.jpg|image-2.jpg|image-3.jpg}",
+  "flowers": [
+    {
+      "id": "rose-hybrid-tea",
+      "expectedPaths": [
+        "flowers/rose-hybrid-tea/main.jpg",
+        "flowers/rose-hybrid-tea/gallery-1.jpg",
+        "flowers/rose-hybrid-tea/gallery-2.jpg",
+        "flowers/rose-hybrid-tea/gallery-3.jpg",
+        "flowers/rose-hybrid-tea/model.glb"
+      ]
+    },
+    {
+      "id": "garden-rose",
+      "expectedPaths": [
+        "flowers/garden-rose/main.jpg",
+        "flowers/garden-rose/gallery-1.jpg",
+        "flowers/garden-rose/gallery-2.jpg",
+        "flowers/garden-rose/gallery-3.jpg",
+        "flowers/garden-rose/model.glb"
+      ]
+    },
+    {
+      "id": "carnation",
+      "expectedPaths": [
+        "flowers/carnation/main.jpg",
+        "flowers/carnation/gallery-1.jpg",
+        "flowers/carnation/gallery-2.jpg",
+        "flowers/carnation/gallery-3.jpg",
+        "flowers/carnation/model.glb"
+      ]
+    },
+    {
+      "id": "hydrangea",
+      "expectedPaths": [
+        "flowers/hydrangea/main.jpg",
+        "flowers/hydrangea/gallery-1.jpg",
+        "flowers/hydrangea/gallery-2.jpg",
+        "flowers/hydrangea/gallery-3.jpg",
+        "flowers/hydrangea/model.glb"
+      ]
+    },
+    {
+      "id": "babys-breath",
+      "expectedPaths": [
+        "flowers/babys-breath/main.jpg",
+        "flowers/babys-breath/gallery-1.jpg",
+        "flowers/babys-breath/gallery-2.jpg",
+        "flowers/babys-breath/gallery-3.jpg",
+        "flowers/babys-breath/model.glb"
+      ]
+    },
+    {
+      "id": "lavender",
+      "expectedPaths": [
+        "flowers/lavender/main.jpg",
+        "flowers/lavender/gallery-1.jpg",
+        "flowers/lavender/gallery-2.jpg",
+        "flowers/lavender/gallery-3.jpg",
+        "flowers/lavender/model.glb"
+      ]
+    },
+    {
+      "id": "chrysanthemum",
+      "expectedPaths": [
+        "flowers/chrysanthemum/main.jpg",
+        "flowers/chrysanthemum/gallery-1.jpg",
+        "flowers/chrysanthemum/gallery-2.jpg",
+        "flowers/chrysanthemum/gallery-3.jpg",
+        "flowers/chrysanthemum/model.glb"
+      ]
+    },
+    {
+      "id": "orchid-phalaenopsis",
+      "expectedPaths": [
+        "flowers/orchid-phalaenopsis/main.jpg",
+        "flowers/orchid-phalaenopsis/gallery-1.jpg",
+        "flowers/orchid-phalaenopsis/gallery-2.jpg",
+        "flowers/orchid-phalaenopsis/gallery-3.jpg",
+        "flowers/orchid-phalaenopsis/model.glb"
+      ]
+    },
+    {
+      "id": "statice",
+      "expectedPaths": [
+        "flowers/statice/main.jpg",
+        "flowers/statice/gallery-1.jpg",
+        "flowers/statice/gallery-2.jpg",
+        "flowers/statice/gallery-3.jpg",
+        "flowers/statice/model.glb"
+      ]
+    },
+    {
+      "id": "peony",
+      "expectedPaths": [
+        "flowers/peony/main.jpg",
+        "flowers/peony/gallery-1.jpg",
+        "flowers/peony/gallery-2.jpg",
+        "flowers/peony/gallery-3.jpg",
+        "flowers/peony/model.glb"
+      ]
+    },
+    {
+      "id": "tulip",
+      "expectedPaths": [
+        "flowers/tulip/main.jpg",
+        "flowers/tulip/gallery-1.jpg",
+        "flowers/tulip/gallery-2.jpg",
+        "flowers/tulip/gallery-3.jpg",
+        "flowers/tulip/model.glb"
+      ]
+    },
+    {
+      "id": "sunflower",
+      "expectedPaths": [
+        "flowers/sunflower/main.jpg",
+        "flowers/sunflower/gallery-1.jpg",
+        "flowers/sunflower/gallery-2.jpg",
+        "flowers/sunflower/gallery-3.jpg",
+        "flowers/sunflower/model.glb"
+      ]
+    },
+    {
+      "id": "lily-oriental",
+      "expectedPaths": [
+        "flowers/lily-oriental/main.jpg",
+        "flowers/lily-oriental/gallery-1.jpg",
+        "flowers/lily-oriental/gallery-2.jpg",
+        "flowers/lily-oriental/gallery-3.jpg",
+        "flowers/lily-oriental/model.glb"
+      ]
+    },
+    {
+      "id": "marigold",
+      "expectedPaths": [
+        "flowers/marigold/main.jpg",
+        "flowers/marigold/gallery-1.jpg",
+        "flowers/marigold/gallery-2.jpg",
+        "flowers/marigold/gallery-3.jpg",
+        "flowers/marigold/model.glb"
+      ]
+    },
+    {
+      "id": "jasmine",
+      "expectedPaths": [
+        "flowers/jasmine/main.jpg",
+        "flowers/jasmine/gallery-1.jpg",
+        "flowers/jasmine/gallery-2.jpg",
+        "flowers/jasmine/gallery-3.jpg",
+        "flowers/jasmine/model.glb"
+      ]
+    },
+    {
+      "id": "daisy-shasta",
+      "expectedPaths": [
+        "flowers/daisy-shasta/main.jpg",
+        "flowers/daisy-shasta/gallery-1.jpg",
+        "flowers/daisy-shasta/gallery-2.jpg",
+        "flowers/daisy-shasta/gallery-3.jpg",
+        "flowers/daisy-shasta/model.glb"
+      ]
+    },
+    {
+      "id": "anemone",
+      "expectedPaths": [
+        "flowers/anemone/main.jpg",
+        "flowers/anemone/gallery-1.jpg",
+        "flowers/anemone/gallery-2.jpg",
+        "flowers/anemone/gallery-3.jpg",
+        "flowers/anemone/model.glb"
+      ]
+    },
+    {
+      "id": "ranunculus",
+      "expectedPaths": [
+        "flowers/ranunculus/main.jpg",
+        "flowers/ranunculus/gallery-1.jpg",
+        "flowers/ranunculus/gallery-2.jpg",
+        "flowers/ranunculus/gallery-3.jpg",
+        "flowers/ranunculus/model.glb"
+      ]
+    },
+    {
+      "id": "freesia",
+      "expectedPaths": [
+        "flowers/freesia/main.jpg",
+        "flowers/freesia/gallery-1.jpg",
+        "flowers/freesia/gallery-2.jpg",
+        "flowers/freesia/gallery-3.jpg",
+        "flowers/freesia/model.glb"
+      ]
+    },
+    {
+      "id": "gerbera",
+      "expectedPaths": [
+        "flowers/gerbera/main.jpg",
+        "flowers/gerbera/gallery-1.jpg",
+        "flowers/gerbera/gallery-2.jpg",
+        "flowers/gerbera/gallery-3.jpg",
+        "flowers/gerbera/model.glb"
+      ]
+    },
+    {
+      "id": "delphinium",
+      "expectedPaths": [
+        "flowers/delphinium/main.jpg",
+        "flowers/delphinium/gallery-1.jpg",
+        "flowers/delphinium/gallery-2.jpg",
+        "flowers/delphinium/gallery-3.jpg",
+        "flowers/delphinium/model.glb"
+      ]
+    },
+    {
+      "id": "protea",
+      "expectedPaths": [
+        "flowers/protea/main.jpg",
+        "flowers/protea/gallery-1.jpg",
+        "flowers/protea/gallery-2.jpg",
+        "flowers/protea/gallery-3.jpg",
+        "flowers/protea/model.glb"
+      ]
+    },
+    {
+      "id": "eucalyptus",
+      "expectedPaths": [
+        "flowers/eucalyptus/main.jpg",
+        "flowers/eucalyptus/gallery-1.jpg",
+        "flowers/eucalyptus/gallery-2.jpg",
+        "flowers/eucalyptus/gallery-3.jpg",
+        "flowers/eucalyptus/model.glb"
+      ]
+    },
+    {
+      "id": "cornflower",
+      "expectedPaths": [
+        "flowers/cornflower/main.jpg",
+        "flowers/cornflower/gallery-1.jpg",
+        "flowers/cornflower/gallery-2.jpg",
+        "flowers/cornflower/gallery-3.jpg",
+        "flowers/cornflower/model.glb"
+      ]
+    },
+    {
+      "id": "zinnia",
+      "expectedPaths": [
+        "flowers/zinnia/main.jpg",
+        "flowers/zinnia/gallery-1.jpg",
+        "flowers/zinnia/gallery-2.jpg",
+        "flowers/zinnia/gallery-3.jpg",
+        "flowers/zinnia/model.glb"
+      ]
+    },
+    {
+      "id": "iris",
+      "expectedPaths": [
+        "flowers/iris/main.jpg",
+        "flowers/iris/gallery-1.jpg",
+        "flowers/iris/gallery-2.jpg",
+        "flowers/iris/gallery-3.jpg",
+        "flowers/iris/model.glb"
+      ]
+    },
+    {
+      "id": "lisianthus",
+      "expectedPaths": [
+        "flowers/lisianthus/main.jpg",
+        "flowers/lisianthus/gallery-1.jpg",
+        "flowers/lisianthus/gallery-2.jpg",
+        "flowers/lisianthus/gallery-3.jpg",
+        "flowers/lisianthus/model.glb"
+      ]
+    },
+    {
+      "id": "sweet-pea",
+      "expectedPaths": [
+        "flowers/sweet-pea/main.jpg",
+        "flowers/sweet-pea/gallery-1.jpg",
+        "flowers/sweet-pea/gallery-2.jpg",
+        "flowers/sweet-pea/gallery-3.jpg",
+        "flowers/sweet-pea/model.glb"
+      ]
+    },
+    {
+      "id": "amaranthus",
+      "expectedPaths": [
+        "flowers/amaranthus/main.jpg",
+        "flowers/amaranthus/gallery-1.jpg",
+        "flowers/amaranthus/gallery-2.jpg",
+        "flowers/amaranthus/gallery-3.jpg",
+        "flowers/amaranthus/model.glb"
+      ]
+    },
+    {
+      "id": "globe-amaranth",
+      "expectedPaths": [
+        "flowers/globe-amaranth/main.jpg",
+        "flowers/globe-amaranth/gallery-1.jpg",
+        "flowers/globe-amaranth/gallery-2.jpg",
+        "flowers/globe-amaranth/gallery-3.jpg",
+        "flowers/globe-amaranth/model.glb"
+      ]
+    },
+    {
+      "id": "queen-annes-lace",
+      "expectedPaths": [
+        "flowers/queen-annes-lace/main.jpg",
+        "flowers/queen-annes-lace/gallery-1.jpg",
+        "flowers/queen-annes-lace/gallery-2.jpg",
+        "flowers/queen-annes-lace/gallery-3.jpg",
+        "flowers/queen-annes-lace/model.glb"
+      ]
+    }
+  ],
+  "products": [
+    {
+      "id": "resin-frame-small-classic",
+      "expectedPaths": [
+        "products/resin-frame-small-classic/image-0.jpg",
+        "products/resin-frame-small-classic/image-1.jpg",
+        "products/resin-frame-small-classic/image-2.jpg",
+        "products/resin-frame-small-classic/image-3.jpg"
+      ]
+    },
+    {
+      "id": "resin-frame-small-oak",
+      "expectedPaths": [
+        "products/resin-frame-small-oak/image-0.jpg",
+        "products/resin-frame-small-oak/image-1.jpg",
+        "products/resin-frame-small-oak/image-2.jpg",
+        "products/resin-frame-small-oak/image-3.jpg"
+      ]
+    },
+    {
+      "id": "resin-frame-large-statement",
+      "expectedPaths": [
+        "products/resin-frame-large-statement/image-0.jpg",
+        "products/resin-frame-large-statement/image-1.jpg",
+        "products/resin-frame-large-statement/image-2.jpg",
+        "products/resin-frame-large-statement/image-3.jpg"
+      ]
+    },
+    {
+      "id": "resin-frame-large-gold",
+      "expectedPaths": [
+        "products/resin-frame-large-gold/image-0.jpg",
+        "products/resin-frame-large-gold/image-1.jpg",
+        "products/resin-frame-large-gold/image-2.jpg",
+        "products/resin-frame-large-gold/image-3.jpg"
+      ]
+    },
+    {
+      "id": "resin-dome-classic",
+      "expectedPaths": [
+        "products/resin-dome-classic/image-0.jpg",
+        "products/resin-dome-classic/image-1.jpg",
+        "products/resin-dome-classic/image-2.jpg",
+        "products/resin-dome-classic/image-3.jpg"
+      ]
+    },
+    {
+      "id": "resin-dome-nightlight",
+      "expectedPaths": [
+        "products/resin-dome-nightlight/image-0.jpg",
+        "products/resin-dome-nightlight/image-1.jpg",
+        "products/resin-dome-nightlight/image-2.jpg",
+        "products/resin-dome-nightlight/image-3.jpg"
+      ]
+    },
+    {
+      "id": "jewelry-pendant-round",
+      "expectedPaths": [
+        "products/jewelry-pendant-round/image-0.jpg",
+        "products/jewelry-pendant-round/image-1.jpg",
+        "products/jewelry-pendant-round/image-2.jpg",
+        "products/jewelry-pendant-round/image-3.jpg"
+      ]
+    },
+    {
+      "id": "jewelry-pendant-teardrop",
+      "expectedPaths": [
+        "products/jewelry-pendant-teardrop/image-0.jpg",
+        "products/jewelry-pendant-teardrop/image-1.jpg",
+        "products/jewelry-pendant-teardrop/image-2.jpg",
+        "products/jewelry-pendant-teardrop/image-3.jpg"
+      ]
+    },
+    {
+      "id": "jewelry-earrings-stud",
+      "expectedPaths": [
+        "products/jewelry-earrings-stud/image-0.jpg",
+        "products/jewelry-earrings-stud/image-1.jpg",
+        "products/jewelry-earrings-stud/image-2.jpg",
+        "products/jewelry-earrings-stud/image-3.jpg"
+      ]
+    },
+    {
+      "id": "jewelry-bracelet-charm",
+      "expectedPaths": [
+        "products/jewelry-bracelet-charm/image-0.jpg",
+        "products/jewelry-bracelet-charm/image-1.jpg",
+        "products/jewelry-bracelet-charm/image-2.jpg",
+        "products/jewelry-bracelet-charm/image-3.jpg"
+      ]
+    },
+    {
+      "id": "keepsake-box-classic",
+      "expectedPaths": [
+        "products/keepsake-box-classic/image-0.jpg",
+        "products/keepsake-box-classic/image-1.jpg",
+        "products/keepsake-box-classic/image-2.jpg",
+        "products/keepsake-box-classic/image-3.jpg"
+      ]
+    },
+    {
+      "id": "keepsake-box-memorial",
+      "expectedPaths": [
+        "products/keepsake-box-memorial/image-0.jpg",
+        "products/keepsake-box-memorial/image-1.jpg",
+        "products/keepsake-box-memorial/image-2.jpg",
+        "products/keepsake-box-memorial/image-3.jpg"
+      ]
+    },
+    {
+      "id": "pressed-art-frame-a4",
+      "expectedPaths": [
+        "products/pressed-art-frame-a4/image-0.jpg",
+        "products/pressed-art-frame-a4/image-1.jpg",
+        "products/pressed-art-frame-a4/image-2.jpg",
+        "products/pressed-art-frame-a4/image-3.jpg"
+      ]
+    },
+    {
+      "id": "pressed-art-frame-a3",
+      "expectedPaths": [
+        "products/pressed-art-frame-a3/image-0.jpg",
+        "products/pressed-art-frame-a3/image-1.jpg",
+        "products/pressed-art-frame-a3/image-2.jpg",
+        "products/pressed-art-frame-a3/image-3.jpg"
+      ]
+    },
+    {
+      "id": "pressed-art-diptych",
+      "expectedPaths": [
+        "products/pressed-art-diptych/image-0.jpg",
+        "products/pressed-art-diptych/image-1.jpg",
+        "products/pressed-art-diptych/image-2.jpg",
+        "products/pressed-art-diptych/image-3.jpg"
+      ]
+    },
+    {
+      "id": "shadow-box-standard",
+      "expectedPaths": [
+        "products/shadow-box-standard/image-0.jpg",
+        "products/shadow-box-standard/image-1.jpg",
+        "products/shadow-box-standard/image-2.jpg",
+        "products/shadow-box-standard/image-3.jpg"
+      ]
+    },
+    {
+      "id": "shadow-box-military",
+      "expectedPaths": [
+        "products/shadow-box-military/image-0.jpg",
+        "products/shadow-box-military/image-1.jpg",
+        "products/shadow-box-military/image-2.jpg",
+        "products/shadow-box-military/image-3.jpg"
+      ]
+    },
+    {
+      "id": "ornament-glass-round",
+      "expectedPaths": [
+        "products/ornament-glass-round/image-0.jpg",
+        "products/ornament-glass-round/image-1.jpg",
+        "products/ornament-glass-round/image-2.jpg",
+        "products/ornament-glass-round/image-3.jpg"
+      ]
+    },
+    {
+      "id": "ornament-glass-heart",
+      "expectedPaths": [
+        "products/ornament-glass-heart/image-0.jpg",
+        "products/ornament-glass-heart/image-1.jpg",
+        "products/ornament-glass-heart/image-2.jpg",
+        "products/ornament-glass-heart/image-3.jpg"
+      ]
+    },
+    {
+      "id": "coaster-set-resin",
+      "expectedPaths": [
+        "products/coaster-set-resin/image-0.jpg",
+        "products/coaster-set-resin/image-1.jpg",
+        "products/coaster-set-resin/image-2.jpg",
+        "products/coaster-set-resin/image-3.jpg"
+      ]
+    },
+    {
+      "id": "bookmark-resin",
+      "expectedPaths": [
+        "products/bookmark-resin/image-0.jpg",
+        "products/bookmark-resin/image-1.jpg",
+        "products/bookmark-resin/image-2.jpg",
+        "products/bookmark-resin/image-3.jpg"
+      ]
+    },
+    {
+      "id": "phone-case-resin",
+      "expectedPaths": [
+        "products/phone-case-resin/image-0.jpg",
+        "products/phone-case-resin/image-1.jpg",
+        "products/phone-case-resin/image-2.jpg",
+        "products/phone-case-resin/image-3.jpg"
+      ]
+    },
+    {
+      "id": "wall-clock-resin",
+      "expectedPaths": [
+        "products/wall-clock-resin/image-0.jpg",
+        "products/wall-clock-resin/image-1.jpg",
+        "products/wall-clock-resin/image-2.jpg",
+        "products/wall-clock-resin/image-3.jpg"
+      ]
+    },
+    {
+      "id": "bulk-corporate-gift-set",
+      "expectedPaths": [
+        "products/bulk-corporate-gift-set/image-0.jpg",
+        "products/bulk-corporate-gift-set/image-1.jpg",
+        "products/bulk-corporate-gift-set/image-2.jpg",
+        "products/bulk-corporate-gift-set/image-3.jpg"
+      ]
+    },
+    {
+      "id": "rush-express-frame",
+      "expectedPaths": [
+        "products/rush-express-frame/image-0.jpg",
+        "products/rush-express-frame/image-1.jpg",
+        "products/rush-express-frame/image-2.jpg",
+        "products/rush-express-frame/image-3.jpg"
+      ]
+    }
+  ]
+}
